@@ -22,7 +22,7 @@ h6 {
 	font-family: monospace;
 	margin-top: 0px;
 	margin-left: 25px;
-	color: grey;
+	color: silver;
 }
 
 p {
@@ -37,7 +37,7 @@ table {
 }
 
 table, th, td {
-	border: 1px solid white;
+	border: 1px solid lightblue;
 	color: lightcyan;
 }
 
@@ -106,11 +106,19 @@ td {
 	text-decoration: none;
 	font-family: monospace;
 	font-size: 20px;
-	color: aquamarine;
+	color: turquoise;
+}
+
+#links a:hover {
+	color: mintcream;
 }
 
 #projects img {
 	width: 90%;
+}
+
+#projects img:hover {
+	border: solid paleturquoise 1px;
 }
 
 #projects p, #artwork p {
